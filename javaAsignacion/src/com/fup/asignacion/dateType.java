@@ -13,6 +13,14 @@ public class dateType {
         //  JoptionPane Imprime por interfaz un mensaje
         JOptionPane.showMessageDialog(null,message);            
         }
-                
+        /***
+         BYTE
+         ***/
+        
+        byte edad = 23;
+        message = "Tu edad es: ";
+        JOptionPane.showMessageDialog(null, message+edad);
+        
+        //JOptionPane.showInternalInputDialog(null, message, message, edad, icon, args, message);
     }
 }
