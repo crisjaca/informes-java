@@ -35,6 +35,6 @@ public class dateType {
          ***/ 
         message = "El numero entero positivo es: ";
         int numero = 144;
-        JOptionPane.showMessageDialog(null, numero);
+        JOptionPane.showMessageDialog(null, message+numero);
     }
 }
