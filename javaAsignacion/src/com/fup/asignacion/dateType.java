@@ -22,5 +22,19 @@ public class dateType {
         JOptionPane.showMessageDialog(null, message+edad);
         
         //JOptionPane.showInternalInputDialog(null, message, message, edad, icon, args, message);
+        
+        /***
+         SHORT
+         **/
+        
+        short km = 56;
+        JOptionPane.showMessageDialog(null, km);
+        
+        /***
+         INT
+         ***/ 
+        message = "El numero entero positivo es: ";
+        int numero = 144;
+        JOptionPane.showMessageDialog(null, numero);
     }
 }
