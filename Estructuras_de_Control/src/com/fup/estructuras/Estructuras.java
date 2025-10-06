@@ -60,8 +60,9 @@ public class Estructuras {
         }else if (num2 > num3){
                 System.out.println(num2+" ES EL NUMERO MAYOR");
         }else{
+            System.out.println(num3+" ES EL NUMERO MAYOR");
             //System.out.println("=========================== "+num3);   
-                System.out.println(num3+" ES EL NUMERO MAYOR");
+                
         }
     }
     
