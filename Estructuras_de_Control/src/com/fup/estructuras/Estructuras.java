@@ -35,7 +35,7 @@ public class Estructuras {
         
         //  EJEMPLO 2
         
-        int num1,num2,num3;
+       /**int num1,num2,num3;
         String numeros = " ";
         System.out.println("Ingrese el primer numero: ");
         num1 = tecla.nextInt();
@@ -63,6 +63,14 @@ public class Estructuras {
             //System.out.println("=========================== "+num3);   
                 System.out.println(num3+" ES EL NUMERO MAYOR");
         }
+        * **/
+       
+       estructuras2 est2 = new estructuras2();//    Se crea una instancia de la clase
+       // la instancia es est2
+       
+       est2.evaluate_weather();// Aqui llamamos el metodo de la clase estructuras2
+       est2.sleep_and_dream();
+       
     }
     
 }
