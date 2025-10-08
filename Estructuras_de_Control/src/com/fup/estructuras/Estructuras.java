@@ -68,10 +68,20 @@ public class Estructuras {
        
        estructuras2 est2 = new estructuras2();//    Se crea una instancia de la clase
        // la instancia es est2
-       
+       /**
        est2.evaluate_weather();// Aqui llamamos el metodo de la clase estructuras2
        est2.sleep_and_dream();
        
+       est2.evaluate_weather2();
+       **/
+       ////////////////////////Ejercicio
+       
+       String planta = "";
+        System.out.println("==============================");
+        System.out.println("Ingresa el nombre de la planta: ");
+        planta = tecla.nextLine();
+        
+        est2.evaluate_plant(planta);
     }
     
 }
